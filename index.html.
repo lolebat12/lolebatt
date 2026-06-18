@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Видео</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: black;
+    }
+
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: contain;
+      background: black;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <video autoplay controls playsinline>
+    <source src="https://cold-eu-par-2.gofile.io/download/web/86068075-f9eb-4580-b128-5197277aa06f/0618%20(1).mp4" type="video/mp4">
+  </video>
+
+</body>
+</html>
